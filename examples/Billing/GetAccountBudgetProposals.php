@@ -39,7 +39,7 @@ use Google\ApiCore\ApiException;
  */
 class GetAccountBudgetProposals
 {
-    private const CUSTOMER_ID = 'INSERT_CUSTOMER_ID_HERE';
+    private const CUSTOMER_ID = '1838875108';
     private const PAGE_SIZE = 1000;
 
     public static function main()
