@@ -35,7 +35,7 @@ use Google\ApiCore\ApiException;
 /** This sample gets all BillingSetup objects available for the specified customer ID. */
 class GetBillingSetup
 {
-    private const CUSTOMER_ID = '1838875108';
+    private const CUSTOMER_ID = 'INSERT_CUSTOMER_ID_HERE';
     private const PAGE_SIZE = 1000;
 
     public static function main()

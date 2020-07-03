@@ -38,7 +38,7 @@ use Google\ApiCore\ApiException;
 /** This example retrieves all account budgets for a Google Ads customer. */
 class GetAccountBudgets
 {
-    private const CUSTOMER_ID = 2728809269;
+    private const CUSTOMER_ID = 'INSERT_CUSTOMER_ID_HERE';
 
     public static function main()
     {
@@ -119,7 +119,6 @@ class GetAccountBudgets
         // Issues a search request by specifying page size.
         $stream = $googleAdsServiceClient->searchStream($customerId, $query);
         /** @var GoogleAdsServerStreamDecorator $stream */
-
 
         // Iterates over all rows in all pages and prints the requested field values for
         // the account budget in each row.
